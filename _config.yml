@@ -1,6 +1,7 @@
 title: Smart Banking
 description: Сайт за умно банкиране
-remote_theme: Smart-Banking/theme
+# remote_theme: Smart-Banking/theme
+remote_theme: brianmaierjr/long-haul
 plugins:
 - jekyll-remote-theme
 # remote_theme: brianmaierjr/long-haul
