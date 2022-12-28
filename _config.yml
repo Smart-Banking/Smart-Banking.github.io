@@ -4,6 +4,12 @@ description: Сайт за умно банкиране
 social:
   email: cxpucmob@gmail.com
 
+# Header Option
+header: large
+
+disqus:
+    shortname: cxpucmob
+
 remote_theme: brianmaierjr/long-haul
 plugins:
 - jekyll-remote-theme
