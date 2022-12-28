@@ -1,9 +1,13 @@
 title: Smart Banking
 description: Сайт за умно банкиране
-# remote_theme: Smart-Banking/theme
+
+social:
+  email: cxpucmob@gmail.com
+
 remote_theme: brianmaierjr/long-haul
 plugins:
 - jekyll-remote-theme
+
 # remote_theme: brianmaierjr/long-haul
 # pages-themes/slate@v0.2.0
 # time-machine@v0.2.0
