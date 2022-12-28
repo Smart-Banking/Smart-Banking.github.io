@@ -7,8 +7,8 @@ social:
 # Header Option
 header: large
 
-disqus:
-    shortname: cxpucmob
+# disqus:
+#   shortname: cxpucmob
 
 remote_theme: brianmaierjr/long-haul
 plugins:
