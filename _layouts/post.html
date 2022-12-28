@@ -9,7 +9,7 @@ layout: default
   {%- endif -%}
   <header>
     <h2 class="postTitle">{{ page.title }}</h2>
-    <p class="meta">{{ page.date | date: '%d.%m.%Y' }} г. | <span class="time">{{ page.content | number_of_words | divided_by:10 }}</span> Minute Read</p>
+    <p class="meta">{{ page.date | date: '%d.%m.%Y' }} г. | Време за четене: <span class="time">{{ page.content | number_of_words | divided_by:10 }}</span> мин.</p>
   </header>
 
   {{ content }}
