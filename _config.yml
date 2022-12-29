@@ -17,10 +17,10 @@ plugins: [jekyll-paginate]
 paginate: 5
 
 navigation:
-  - title: -Начало-
+  - title: Начало
     url: /index.html
     # README.md
-  - title: За Smart-Banking
+  - title: За Smart Banking
     url: /intro
   - title: Контакти
     url: /contact
