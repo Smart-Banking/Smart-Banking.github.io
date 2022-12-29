@@ -19,3 +19,8 @@ layout: default
     <a href="https://Smart-Banking.github.io">Начало</a>
   </footer>
 </article>
+
+{%- if site.disqus.shortname -%}
+  {%- include disqus_comments.html -%}
+{%- endif -%}
+
