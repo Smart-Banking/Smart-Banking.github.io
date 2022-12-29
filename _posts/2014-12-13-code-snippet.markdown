@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Post With A Code Snippet"
+comments: false
 date:   2014-12-13
 ---
 
