@@ -18,9 +18,10 @@ paginate: 5
 
 navigation:
   - title: -Начало-
-    url: /README.md
+    url: /index.html
+    # README.md
   - title: За Smart-Banking
-    url: /intro.md
+    url: /intro
   - title: Контакти
     url: /contact
 
