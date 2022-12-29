@@ -1,20 +1,33 @@
 title: Smart Banking
 description: Сайт за умно банкиране
 
+url: https://Smart-Banking.github.io
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
 social:
   email: cxpucmob@gmail.com
 
 # Header Option
 header: large
 
+markdown: kramdown
+highlighter: rouge
+plugins: [jekyll-paginate]
+paginate: 5
+
+navigation:
+  - title: -Начало-
+    url: /README.md
+  - title: За Smart-Banking
+    url: /intro.md
+  - title: Контакти
+    url: /contact
+
 disqus:
-  shortname: smart-banking-github-io
+  shortname: smart-banking
+  # -github-io
 
 remote_theme: brianmaierjr/long-haul
 plugins:
 - jekyll-remote-theme
-
-# remote_theme: brianmaierjr/long-haul
-# pages-themes/slate@v0.2.0
-# time-machine@v0.2.0
-# dinky@v0.2.0
