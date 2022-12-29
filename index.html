@@ -6,14 +6,13 @@ title: SMART BANKING
 <div class="home" id="home">
   <h3 class="pageTitle">Последно публикувани:</h3>
   <div class="posts noList">
-    <h3><a class="post-link" href="https://smart-banking.github.io/blog/example-post-formatting/#disqus_thread">Проба на брояча</a></h3>
     {%- for post in paginator.posts -%}
       <article>
         <!--span class="date">{{ post.date | date: '%B %d, %Y' }}</span-->
         <span class="date">{{ post.date | date: '%d.%m.%Y' }}</span>
         <h3><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></h3>
-        <a class="post-link" href="{{ post.url }}#disqus_thread">Проба на брояча</a>
         <p>{%- if post.description -%}{{ post.description }}{%- else -%}{{ post.excerpt | strip_html }}{%- endif -%}</p>
+        <a class="post-link" href="{{ post.url }}#disqus_thread">Брой коментари</a>
       </article>
     {%- endfor -%}
   </div>
