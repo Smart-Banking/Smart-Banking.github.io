@@ -8,11 +8,10 @@ title: SMART BANKING
   <div class="posts noList">
     {%- for post in paginator.posts -%}
       <article>
-        <!--span class="date">{{ post.date | date: '%B %d, %Y' }}</span-->
         <span class="date">{{ post.date | date: '%d.%m.%Y' }}</span>
         <h3><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></h3>
         <p>{%- if post.description -%}{{ post.description }}{%- else -%}{{ post.excerpt | strip_html }}{%- endif -%}</p>
-        <a class="post-link" href="{{ post.url }}#disqus_thread">Брой коментари</a>
+        <!--<a class="post-link" href="{{ post.url }}#disqus_thread">Брой коментари</a>-->
       </article>
     {%- endfor -%}
   </div>
@@ -26,4 +25,4 @@ title: SMART BANKING
     {%- endif -%}
   </div>
 </div>
-<script id="dsq-count-scr" src="//smart-banking.disqus.com/count.js" async></script>
+<!--<script id="dsq-count-scr" src="//smart-banking.disqus.com/count.js" async></script>-->
