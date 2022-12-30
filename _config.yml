@@ -25,6 +25,8 @@ navigation:
     url: /intro
   - title: Контакти
     url: /contact
+  - title: Съдържание
+    url: /contents
 
 disqus:
   shortname: smart-banking
