@@ -1,4 +1,4 @@
-title: Smart Banking
+title: SMART BANKING
 description: Сайт за умно банкиране
 
 url: https://Smart-Banking.github.io
@@ -21,7 +21,7 @@ navigation:
   - title: Начало
     url: /index.html
     # README.md
-  - title: За Smart Banking
+  - title: За SMART BANKING
     url: /intro
   - title: Контакти
     url: /contact
