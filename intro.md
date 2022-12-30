@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "За Smart Banking"
+title:  "За SMART BANKING"
 date:   2022-12-28
 ---
 ### Здравейте!
