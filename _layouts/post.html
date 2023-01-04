@@ -11,7 +11,7 @@ layout: default
   <header>
     <h2 class="postTitle">{{ page.title }}</h2>
     <p class="meta">{{ page.date | date: '%d.%m.%Y' }} г. | Време за четене: 
-      <span class="time">{{ page.content | number_of_words | divided_by:180 }}</span> мин.
+      <span class="time">{{ page.content | number_of_words | divided_by:180 | plus: 1}} </span> мин.
     </p>
   </header>
 
