@@ -1,9 +1,8 @@
 <div class="footer">
 	<div class="container">
-		<p class="copy">
+		<p class="copy">Към <a href="/index.html">Начало </a>
 			&copy; {{ site.time | date: '%Y' }}
-			<a href="http://brianmaierjr.com">Brian Maier Jr. and CX.</a> Powered by
-			<a href="http://jekyllrb.com">Jekyll</a>
+			CX and <a href="https://github.com/brianmaierjr/long-haul">Brian Maier Jr.</a> 
 		</p>
 
 		<div class="footer-links">
@@ -102,7 +101,7 @@
 					</a>
 				</li>
 				{%- endif -%} 
-				 {%- if site.social.email -%}
+				{%- if site.social.email -%}
 				<li>
 					<a href="mailto:{{ site.social.email }}" target="_blank">
 						<svg
@@ -163,5 +162,6 @@
 			</ul>
 		</div>
 	</div>
+	
 </div>
 <!-- end .footer -->

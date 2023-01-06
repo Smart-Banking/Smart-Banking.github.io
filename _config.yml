@@ -7,8 +7,8 @@ permalink: blog/:title/
 
 social:
   email: cxpucmob@gmail.com
-  github: brianmaierjr
-  linkedin: https://Smart-Banking.github.io
+#  github: brianmaierjr
+#  linkedin: https://Smart-Banking.github.io
 
 # Header Option
 # header: large
