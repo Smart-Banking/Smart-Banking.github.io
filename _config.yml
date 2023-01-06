@@ -20,13 +20,12 @@ paginate: 5
 navigation:
   - title: Начало
     url: /index.html
-    # README.md
   - title: За SMART BANKING
     url: /intro
-  - title: Контакти
-    url: /contact
+#  - title: Контакти
+#    url: /contact
   - title: Съдържание
-    url: /contents
+    url: /table-contents
 
 disqus:
   shortname: smart-banking
