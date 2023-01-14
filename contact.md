@@ -4,7 +4,7 @@ title: Контакти
 ---
 
 <div id="contact">
-  <h3 class="pageTitle">Вашето съобщение</h3>
+  <!--h3 class="pageTitle">Вашето съобщение</h3-->
   <div class="contactContent">
     <p class="intro">Ако имате какво да споделите с потребителите на SMART BANKING, пишете ни.</p>
     <p>Всички полезни материали ще бъдат публикувани на сайта, с Вашето име като автор.</p>
