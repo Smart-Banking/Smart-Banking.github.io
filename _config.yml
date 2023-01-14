@@ -23,10 +23,10 @@ navigation:
     url: /index.html
   - title: За SMART BANKING
     url: /intro
-#  - title: Контакти
-#    url: /contact
+  - title: Контакти
+    url: /contact
   - title: Съдържание
-    url: /table-contents
+    url: /contents
 
 disqus:
   shortname: smart-banking
