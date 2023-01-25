@@ -1,7 +1,7 @@
 /*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300, 400, 800);
-@import url(https: //fonts.googleapis.com/css?family=PT+Serif:400, 700, 400italic, 700italic);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400, 700, 400italic, 700italic);
 
 html {
 line-height: 1.15;
@@ -330,7 +330,8 @@ background-color: #f7f7f7;
 tr: nth-child(2n) {
 background-color: #1a1a1a;
 }
-}td, th {
+}
+td, th {
 text-align: left;
 padding: .5em;
 }
