@@ -403,7 +403,7 @@ box-sizing: border-box;
 box-sizing: inherit;
 }
 body {
-font-family: PT Serif, Georgia, Times, serif;
+font-family: Open Sans, PT Serif, Georgia, Times, serif;
 line-height: 1.75;
 font-size: 112.5%;
 color: #111;
@@ -852,6 +852,7 @@ display: none;
 .post .pageTitle, .post dl, .post h1, .post h2, .post h3, .post h4, .post h5, .post h6, .post ol, .post p, .post ul {
 width: 75%;
 float: none;
+font-family: Open Sans, Helvetica, Arial, sans-serif;
 margin: 0 auto 2rem;
 }
 .post .h1, .post .h2, .post .h3, .post .h4, .post .h5, .post .h6, .post h1, .post h2, .post h3, .post h4, .post h5, .post h6 {
