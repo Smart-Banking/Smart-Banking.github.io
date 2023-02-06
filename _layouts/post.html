@@ -17,10 +17,6 @@ layout: default
 
   {{ content }}
 
-  <!-- POST NAVIGATION 
-  <footer class="postNav clearfix">
-    <a href="https://Smart-Banking.github.io">Начало</a>
-  </footer> -->
   <footer class="postNav clearfix">
     {%- if page.previous.url -%} 
       <a class="prev{% if page.previous.image %} image{% endif %}" href="{{ page.previous.url }}">

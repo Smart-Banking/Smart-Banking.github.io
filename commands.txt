@@ -1,0 +1,4 @@
+SMART BANKING
+  C:\Smart-Banking\Smart-Banking.github.io
+  bundle exec jekyll serve --livereload
+  localhost:4000
