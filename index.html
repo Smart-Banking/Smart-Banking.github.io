@@ -4,8 +4,14 @@ title: SMART BANKING
 ---
 
 <div class="home" id="home">
-  <h3 class="pageTitle">Последно публикувани:</h3>
   <div class="posts noList">
+    {%- if paginator.next_page -%}
+      <article>
+        <h3><a class="post-link" href="./intro/">За SMART BANKING</a></h3>
+        <p>Богатото изобилие от възможности в банковата и финтех сфери и морето от разнообразна информация е в състояние да обърка всеки...</p>
+      </article>
+      <h3 class="pageTitle">Последно публикувани:</h3>
+    {%- endif -%}
     {%- for post in paginator.posts -%}
       <article>
         <span class="date">{{ post.date | date: '%d.%m.%Y' }}</span>
